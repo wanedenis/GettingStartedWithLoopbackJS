@@ -7,7 +7,7 @@ var config = require('../../server/config.json');
 var path = require('path');
 
 //Replace this address with your actual address
-var senderAddress = 'noreply@loopback.com'; 
+var senderAddress = 'wanedenis3@gmail.com';
 
 module.exports = function(User) {
   //send verification email after registration

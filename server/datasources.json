@@ -1,8 +1,15 @@
 {
   "db": {
-    "name": "db",
-    "connector": "memory"
+    "connector": "mongodb",
+    "port": 27017,
+    "host":  "loopbacktest-jtbpo.mongodb.net",
+    "database": "mydb",
+    "url": "mongodb+srv://admin:admin@loopbacktest-jtbpo.mongodb.net/mydb?retryWrites=true&w=majority",
+    "user": "admin",
+    "password": "admin",
+    "name": "db"
   },
+
   "emailDs": {
     "name": "emailDs",
     "connector": "mail",

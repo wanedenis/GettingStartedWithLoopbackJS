@@ -10,6 +10,9 @@ var path = require('path');
 var senderAddress = 'wanedenis3@gmail.com';
 
 module.exports = function(User) {
+
+  console.log(User.toString());
+
   //send verification email after registration
   User.afterRemote('create', function(context, user, next) {
     var options = {
